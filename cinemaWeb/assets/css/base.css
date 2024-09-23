@@ -1,0 +1,34 @@
+:root {
+    --themeColor: rgb(215, 109, 127);
+    --supportingColor: rgb(246, 238, 238);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    background-color: var(--themeColor);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gird__full-width{
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
